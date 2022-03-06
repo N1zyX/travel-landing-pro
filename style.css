@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/images/china-background.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 25px;
+}
+
+.container {
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    color: #fefefe;
+    font-family: 'Lato' , sans-serif;
+    list-style: none;
+}
+
+
+.header__nav > li {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.header__block {
+    color: #fff;
+    margin-top: 175px;
+    font-family: "Lato" , sans-serif;
+}
+
+.header__slogan {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.header__description {
+    opacity: 8;
+   font-size: 16px;
+   font-weight: normal;
+}
+
+.header__form {
+    display: flex;
+    aling-items: center;
+    margin-top: 60px;
+}
+
+.header__form input {
+    background: transparent;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #ffffff99;
+    margin-right: 60px;
+
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-family: Lato, sans-serif;
+    width: 250px;
+    caret-color: white;
+    color: white;
+
+}    
+
+.header__form input::placeholder {
+    color: #fff;
+}
+
+.header__form > .input__wrapper::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.header__form > .input__wrapper {
+    position: relative;
+}
+
+
+.header__form > button {
+    padding: 15 30px;
+    background-color: #1B7DFF;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    width: 140px;
+    height: 50px;
+    outline: 0;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
