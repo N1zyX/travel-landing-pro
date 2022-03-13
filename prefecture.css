@@ -1,0 +1,53 @@
+.prefecture {
+    width: 90%;
+    max-width: 90%;
+    margin: 130px auto;
+}
+
+.prefecture-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.prefecture-item.reverse {
+    flex-direction: row-reverse;
+}
+
+.prefecture-item > .left-side {
+   max-width: 50%;
+}
+
+.prefecture-item img {
+    width: 100%;
+}
+
+.prefecture-item > .right-side {
+    max-width: 50%;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+.prefecture-item > .right-side > h2 {
+    font-weight: 500;
+    font-size: 30px;
+    color: #102746;
+}
+
+.prefecture-item > .right-side > label {
+    color: #102746;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.prefecture-item > .right-side > a {
+    color: #006dfe;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
